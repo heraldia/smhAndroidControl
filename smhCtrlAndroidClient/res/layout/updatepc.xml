@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a new pc ip address" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/ipAddres"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="@string/ipAddres" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/info"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/update"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+
+</LinearLayout>

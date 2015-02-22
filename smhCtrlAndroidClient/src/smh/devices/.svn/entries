@@ -1,0 +1,47 @@
+10
+
+dir
+2168
+svn://rs.cs.iastate.edu/home/smarthome/shrep/smarthome/Demos/smhCtrlAndroidClient/src/smh/devices
+svn://rs.cs.iastate.edu/home/smarthome/shrep
+
+
+
+2014-10-05T22:35:12.790357Z
+2168
+yunfei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e114c8b6-d70d-424e-b846-fdbef3008119
+
+
+
+
+
+
+0
+
+activity
+dir
+
+control
+dir
+
+dao
+dir
+
+model
+dir
+
