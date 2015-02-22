@@ -1,6 +1,10 @@
+smhAndroidControl
+=================
+
 Disable vmware machine connection .
 
 smhCtrlServer is on pc, which receives and executes commands from Android app.
+
 
 
 Run:
